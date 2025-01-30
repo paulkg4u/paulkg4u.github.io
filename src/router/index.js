@@ -17,7 +17,7 @@ const routes = [
   {
     path: "/projects",
     name: "Project",
-    component: ProjectView,
+    component: AboutView,
   },
   {
     path: "/:catchAll(.*)",

@@ -15,7 +15,7 @@ const routes = [
     component: AboutView,
   },
   {
-    path: "/project",
+    path: "/projects",
     name: "Project",
     component: ProjectView,
   },

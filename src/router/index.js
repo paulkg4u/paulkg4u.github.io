@@ -4,26 +4,26 @@ import AboutView from '../views/AboutView.vue'
 import ProjectView from '../views/ProjectView.vue'
 
 const routes = [
-    {
-        path: '/',
-        name: 'Home',
-        component: HomeView
-    },
-    {
-        path: '/about',
-        name: 'About',
-        component: AboutView
-    },
-    {
-        path: '/project',
-        name: 'Project',
-        component: ProjectView
-    },
-    {
-        path : '/:catchAll(.*)',
-        redirect : '/'
-    }
-]
+  {
+    path: "/",
+    name: "Home",
+    component: HomeView,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: AboutView,
+  },
+  {
+    path: "/projects",
+    name: "Project",
+    component: ProjectView,
+  },
+  {
+    path: "/:catchAll(.*)",
+    redirect: "/",
+  },
+];
 
 const router = createRouter({
     history: createWebHistory(),

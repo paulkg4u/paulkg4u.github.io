@@ -1,7 +1,7 @@
 <template>
     <p class="text-center mb-3 dark:text-blue-300">Projects from <font-awesome-icon icon="fa-brands fa-github" />
     </p>
-    <div class="max-h-[50vh] overflow-auto sm:w-4/12 mx-auto">
+    <div class="max-h-[50vh] overflow-auto sm:w-6/12 mx-auto">
         <Loader v-if="loading" />
         <div v-if="error" class="text-red-500 text-center">{{ error }}</div>
         <div v-for="(project, index) in projects" :key="project.id">

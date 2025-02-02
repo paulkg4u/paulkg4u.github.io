@@ -2,7 +2,7 @@
     <div class="text-center">
         <img src="../assets/imgs/dp.jpg"
             class="w-[140px] h-[140px] sm:w-[140px] sm:h-[140px] mx-auto rounded-full shadow-md">
-        <p class="sm:text-center text-justify my-4 sm:w-4/12 mx-auto dark:text-gray-300">
+        <p class="sm:text-center text-justify my-4 sm:w-6/12 mx-auto dark:text-gray-300">
 
             I'm a Full-Stack Developer with keen interest in creating enterprise level web applications for various domains.
 

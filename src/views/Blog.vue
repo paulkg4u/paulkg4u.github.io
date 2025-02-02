@@ -58,4 +58,8 @@
     border: 1px solid #ccc;
     border-radius: 8px;
   }
+
+  .dark .blog-page {
+  color: #d1d5db; /* Light gray color for dark mode */
+}
   </style>
